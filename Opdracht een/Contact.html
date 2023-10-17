@@ -1,0 +1,45 @@
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactpagina</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <div class="banner">
+        <a href="#home">Home</a>
+        <a href="#ervaring">Ervaring</a>
+        <a href="#profiel">Profiel</a>
+        <a href="#interesses">Interessegebieden</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="contact-formulier">
+        <h2>Heeft u vragen of opmerkingen? Aarzel niet om contact op te nemen.</h2>
+        <p>Vul het onderstaande formulier in, en ik zal zo snel mogelijk reageren:</p>
+
+        <form action="verwerk-contact.php" method="post">
+            <div>
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam" required>
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="telefoonnummer">Telefoonnummer:</label>
+                <input type="tel" id="telefoonnummer" name="telefoonnummer">
+            </div>
+
+            <div>
+                <label for="bericht">Bericht:</label>
+                <textarea id="bericht" name="bericht" rows="4" required></textarea>
+            </div>
+
+            <input type="submit" value="Verstuur">
+        </form>
+    </div>
+</body>
+</html>
