@@ -68,3 +68,9 @@ body {
     padding: 10px 20px;
     cursor: pointer;
 }
+footer {
+    text-align: center;
+    background-color: #4C5EAF;
+    color: white;
+    padding: 10px 0;
+}
