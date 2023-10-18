@@ -46,16 +46,23 @@ body {
     color: white;
 }
 .section {
-    display: flex;
+    display:flex;
     align-items: center;
     margin: 20px 0;
 }
-
+.section twee {
+    display:flex;
+    align-items: center;
+    margin: 20px 0;
+    color: gray; 
+}
 .section img {
     max-width: 20%;
     margin-right: 20px;
+    margin-left: 400px;
 }
 
 .section p {
     font-size: 16px;
+    color: #4C5EAF;
 }
